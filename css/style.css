@@ -14,7 +14,7 @@
 
 /* HEADER */
 
-header {
+.header-section {
     background-color: lightblue;
     height: 50px;
     display: flex;
@@ -22,17 +22,28 @@ header {
     align-items: center;
 }
 
-header section {
+.header-section .header-div {
     background-color: orange;
-    width: 70vw;
+    width: 80vw;
     display: flex;
     justify-content: space-between;
     padding: 8px;
 }
 
+/* HERO */
 
-.header-link {
+.hero {
+    background-color: blue;
     display: flex;
-    justify-content: space-evenly;
-    width: 30%;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
 }
+
+.hero>div {
+    background-color: pink;
+    height: 200px;
+    width: 70vw;
+}
+
+/* MAIN */
