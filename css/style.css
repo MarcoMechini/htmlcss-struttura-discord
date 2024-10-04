@@ -8,13 +8,16 @@
     --primary-color: blue;
     --secondary-color: pink;
     --third-color: green;
-
 }
 
-/* GENERAL */
+/*XXXXXXXXXXXXXXXXXX
+XXXXXXGENERALXXXXXXX
+XXXXXXXXXXXXXXXXXX*/
 
 
-/* HEADER */
+/*XXXXXXXXXXXXXXXXXX
+XXXXXHEADERXXXXXXXXX
+XXXXXXXXXXXXXXXXXXX*/
 
 .header-section {
     background-color: lightblue;
@@ -32,7 +35,9 @@
     padding: 8px;
 }
 
-/* HERO */
+/*XXXXXXXXXXXXXXXXXX
+XXXXXXXHEROXXXXXXXXX
+XXXXXXXXXXXXXXXXXXX*/
 
 .hero {
     background-color: blue;
@@ -48,7 +53,9 @@
     width: 70vw;
 }
 
-/* MAIN */
+/*XXXXXXXXXXXXXXXXXX 
+XXXXXXXXMAINXXXXXXXX
+XXXXXXXXXXXXXXXXXXXX*/
 
 .main-sect {
     padding: 40px;
@@ -90,4 +97,41 @@
 .block-green {
     background-color: green;
     width: 100%;
+}
+
+/*XXXXXXXXXXXXXXXXXX
+XXXXXXXFOOTERXXXXXXX
+XXXXXXXXXXXXXXXXXX*/
+
+footer {
+    background-color: #000;
+}
+
+footer .footer-sect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 12px;
+}
+
+.div-foot-sect {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-link {
+    height: 200px;
+}
+
+.foot-coral {
+    width: 33%;
+    background-color: lightcoral;
+}
+
+.foot-sky {
+    width: 66%;
+    background-color: lightskyblue;
 }
