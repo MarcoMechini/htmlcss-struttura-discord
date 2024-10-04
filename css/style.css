@@ -47,3 +47,42 @@
 }
 
 /* MAIN */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    gap: 30px;
+}
+
+.main-sect {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-sect {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.sect-block {
+    height: 500px;
+}
+
+.block-blue {
+    background-color: aquamarine;
+    width: 60%;
+}
+
+.block-pink {
+    width: 40%;
+    background-color: lightpink;
+}
