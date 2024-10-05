@@ -5,22 +5,29 @@
 }
 
 :root {
-    --primary-color: blue;
-    --secondary-color: pink;
-    --third-color: green;
+    --primary-color: #ffc0cb;
+    --secondary-color: #add8e6;
+    --third-color: #228b22;
 }
 
 /*XXXXXXXXXXXXXXXXXX
 XXXXXXGENERALXXXXXXX
 XXXXXXXXXXXXXXXXXX*/
 
+.border-dash {
+    border: 2px dashed black;
+}
+
+.border-fff {
+    border-color: #fff;
+}
 
 /*XXXXXXXXXXXXXXXXXX
 XXXXXHEADERXXXXXXXXX
 XXXXXXXXXXXXXXXXXXX*/
 
 .header-section {
-    background-color: lightblue;
+    background-color: #add8e6;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -28,11 +35,26 @@ XXXXXXXXXXXXXXXXXXX*/
 }
 
 .header-section .header-div {
-    background-color: orange;
+    background-color: #daa520;
     width: 80vw;
     display: flex;
-    justify-content: space-between;
+}
+
+.header-div>div {
     padding: 8px;
+    width: calc(100% / 3);
+}
+
+.header-div>div:first-child {
+    text-align: start;
+}
+
+.header-div>div:nth-child(2) {
+    text-align: center;
+}
+
+.header-div>div:last-child {
+    text-align: end;
 }
 
 /*XXXXXXXXXXXXXXXXXX
@@ -40,7 +62,7 @@ XXXXXXXHEROXXXXXXXXX
 XXXXXXXXXXXXXXXXXXX*/
 
 .hero {
-    background-color: blue;
+    background-color: #00008b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +70,7 @@ XXXXXXXXXXXXXXXXXXX*/
 }
 
 .hero>div {
-    background-color: pink;
+    background-color: #ee82ee;
     height: 200px;
     width: 70vw;
 }
@@ -85,17 +107,17 @@ XXXXXXXXXXXXXXXXXXXX*/
 }
 
 .block-blue {
-    background-color: aquamarine;
     width: 60%;
+    background-color: var(--secondary-color);
 }
 
 .block-pink {
     width: 40%;
-    background-color: lightpink;
+    background-color: var(--primary-color);
 }
 
 .block-green {
-    background-color: green;
+    background-color: var(--third-color);
     width: 100%;
 }
 
@@ -112,7 +134,8 @@ footer .footer-sect {
     justify-content: center;
     align-items: center;
     background-color: #000;
-    padding: 12px;
+    padding: 12px 0 36px;
+    border-bottom: 2px solid gray;
 }
 
 .div-foot-sect {
@@ -128,10 +151,35 @@ footer .footer-sect {
 
 .foot-coral {
     width: 33%;
-    background-color: lightcoral;
+    background-color: #f08080;
 }
 
 .foot-sky {
     width: 66%;
-    background-color: lightskyblue;
+    display: flex;
+    background-color: #20b2aa;
+}
+
+.foot-sky>div {
+    width: 25%;
+}
+
+.footer-cont {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.div-cont {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7fffd4;
+    height: 60px;
+}
+
+.div-cont div {
+    padding: 4px 8px;
+    background-color: #ffb6c1;
 }
